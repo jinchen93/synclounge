@@ -172,8 +172,8 @@ const getters = {
   getExtAvailable: state => state.extAvailable,
   getLogos: () => ({
     light: {
-      long: 'logo-long-light.png',
-      small: 'logo-small-light.png',
+      long: 'dis-a-greyson.png',
+      small: 'dis-a-greyson.png',
     },
     dark: {
       long: 'logo-long-dark.png',
