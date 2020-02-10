@@ -172,29 +172,11 @@ export default {
 
       ptservers: [
         {
-          location: 'Sydney, Australia',
-          text: 'SyncLounge AU1',
-          value: 'https://v2au1.synclounge.tv/server',
-          flag: 'flags/aus.png',
-        },
-        {
-          location: 'Amsterdam, Netherlands',
-          text: 'SyncLounge EU1',
-          value: 'https://v2eu1.synclounge.tv/server',
-          flag: 'flags/eu.png',
-        },
-        {
-          location: 'Miami, United States',
-          text: 'SyncLounge US1',
-          value: 'https://v2us1.synclounge.tv/server',
-          flag: 'flags/usa.png',
-        },
-        {
-          location: 'Anywhere!',
-          text: 'Custom Server',
-          value: 'custom',
-          flag: 'synclounge-white.png',
-        },
+          location: 'Noms, California',
+          text: 'HEHEHEHE',
+          value: `${document.domain}/server`,
+          flag: 'dis-a-greyson.jpg',
+        }
       ],
     };
   },
