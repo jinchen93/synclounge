@@ -345,3 +345,11 @@ ptserver_io.on('connection', (socket) => {
 rootserver.listen(PORT);
 console.log(`SyncLounge Server successfully started on port ${PORT}`);
 
+setInterval(() => {
+  const connectedUsers = Object.keys(ptserver_io.sockets.connected).length;
+  if (connectedUsers) {
+    console.log(
+      `Connected users: ${connectedUsers}`,
+    );
+  }
+}, 30000);
