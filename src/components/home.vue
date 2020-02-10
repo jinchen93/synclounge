@@ -55,7 +55,7 @@ export default {
   },
   computed: {
     logo() {
-      return 'slweb/dis-a-greyson.png';
+      return 'slweb/dis-a-greyson.jpg';
     },
     firstRun() {
       return !this.$store.getters.getSettingHOMEINIT;
