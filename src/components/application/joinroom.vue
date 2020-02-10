@@ -176,7 +176,13 @@ export default {
           text: 'HEHEHEHE',
           value: `${document.domain}/server`,
           flag: 'dis-a-greyson.jpg',
-        }
+        },
+        {
+          location: 'Anywhere!',	
+          text: 'Custom Server',	
+          value: 'custom',	
+          flag: 'synclounge-white.png',	
+        },
       ],
     };
   },
