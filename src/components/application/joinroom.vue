@@ -174,7 +174,7 @@ export default {
         {
           location: 'Noms, California',
           text: 'HEHEHEHE',
-          value: `${document.domain}/server`,
+          value: `${document.location.protocol}//${process.env.DOMAIN}/${process.env.serverroot}`,
           flag: 'dis-a-greyson.jpg',
         },
         {
@@ -242,6 +242,7 @@ export default {
     },
     serverSelected(server) {
       this.selectedServer = server.value;
+      console.log(`selected server: ${this.selectedServer}`)
       if (this.selectedServer !== 'custom') {
         this.attemptConnect();
       }
