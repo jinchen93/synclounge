@@ -172,12 +172,6 @@ export default {
 
       ptservers: [
         {
-          location: 'Noms, California',
-          text: 'HEHEHEHE',
-          value: `${document.location.protocol}//${process.env.DOMAIN}/${process.env.serverroot}`,
-          flag: 'dis-a-greyson.jpg',
-        },
-        {
           location: 'Anywhere!',	
           text: 'Custom Server',	
           value: 'custom',	
